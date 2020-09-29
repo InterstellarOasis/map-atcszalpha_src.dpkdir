@@ -4,11 +4,11 @@
 
 textures/atcs/skybox_s
 {
-	qer_editorimage textures/atcs/mars.jpg
+	qer_editorimage textures/atcs/mars
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm sky
-	q3map_lightimage textures/atcs/skylight.tga
+	q3map_lightimage textures/atcs/skylight
 //	q3map_sun 0.95 0.95 1.0 150 120 25	//lilacisles
 //	q3map_sun 1.00 1.00 0.965 75 90 30 	//siege
 //	q3map_sun 1.00 0.90 0.80 110 180 35	//orangecream
@@ -39,7 +39,7 @@ textures/atcs/burst_red_s
 	entityMergable
 	cull none
 	{
-		map textures/atcs/sparkle_red.tga
+		map textures/atcs/sparkle_red
 		blendFunc add
 		alphaGen	vertex
 	}
@@ -50,7 +50,7 @@ textures/atcs/burst_blue_s
 	entityMergable
 	cull none
 	{
-		map textures/atcs/sparkle_blue.tga
+		map textures/atcs/sparkle_blue
 		blendFunc add
 		alphaGen	vertex
 	}
@@ -58,18 +58,18 @@ textures/atcs/burst_blue_s
 
 textures/atcs/force_field_s
 	{
-        qer_editorimage textures/atcs/force_field_gtk.tga
+        qer_editorimage textures/atcs/force_field_gtk
 	surfaceparm trans	
         surfaceparm nomarks	
 	surfaceparm nolightmap
 	cull none
 	{
-		map textures/atcs/force_field.tga
+		map textures/atcs/force_field
 		tcMod Scroll .1 0
 		blendFunc add
 	}
 	{
-		map textures/atcs/force_grid.tga
+		map textures/atcs/force_grid
 		tcMod Scroll -.01 0
 		blendFunc add
 		rgbgen wave sin .2 .2 0 .4
@@ -78,31 +78,31 @@ textures/atcs/force_field_s
 
 textures/atcs/bulb_red_s
 {
-	qer_editorimage textures/atcs/bulb_red.tga
+	qer_editorimage textures/atcs/bulb_red
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 	qer_trans 0.5
 	{
-		map textures/atcs/bulb_red.tga
+		map textures/atcs/bulb_red
 		blendfunc gl_dst_color gl_src_alpha
 	}
 	{
-		map textures/atcs/bulb_red.tga
+		map textures/atcs/bulb_red
 		blendfunc gl_dst_color gl_src_alpha
 	}
 }
 
 textures/atcs/eq2_bounce
 {
-	qer_editorimage textures/atcs/eq2_bounce.tga
+	qer_editorimage textures/atcs/eq2_bounce
 	
 	{
-		map textures/atcs/eq2_bounce.tga
+		map textures/atcs/eq2_bounce
 		rgbGen identity
 	}
 	{
-		clampmap textures/atcs/eq2_bouncefan.tga
+		clampmap textures/atcs/eq2_bouncefan
 		tcMod rotate 512
 		blendFunc blend
 		depthWrite
@@ -110,7 +110,7 @@ textures/atcs/eq2_bounce
 
 	}
 	{
-		map textures/atcs/eq2_bounce.tga
+		map textures/atcs/eq2_bounce
 		blendfunc blend
 		rgbGen identity
 	}
@@ -132,8 +132,8 @@ textures/atcs/cubelight_32_blue_invis_s_15k
 	surfaceparm nomarks
 	surfaceparm noimpact
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_blue.blend.tga
+	q3map_lightimage textures/atcs/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue.blend
 }
 
 textures/atcs/cubelight_32_red_invis_s_15k
@@ -145,27 +145,27 @@ textures/atcs/cubelight_32_red_invis_s_15k
 	surfaceparm nomarks
 	surfaceparm noimpact
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_red.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_red.blend.tga
+	q3map_lightimage textures/atcs/cubelight_32_red.blend
+	qer_editorimage textures/atcs/cubelight_32_red.blend
 }
 
 textures/atcs/cubelight_32_white_s_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/atcs/cubelight_32_white.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_white.tga
+	q3map_lightimage textures/atcs/cubelight_32_white.blend
+	qer_editorimage textures/atcs/cubelight_32_white
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_white.tga
+		map textures/atcs/cubelight_32_white
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_white.blend.tga
+		map textures/atcs/cubelight_32_white.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -174,19 +174,19 @@ textures/atcs/cubelight_32_blue_s_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_blue.tga
+	q3map_lightimage textures/atcs/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.tga
+		map textures/atcs/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend.tga
+		map textures/atcs/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -195,19 +195,19 @@ textures/atcs/cubelight_32_blue_s_15k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_blue.tga
+	q3map_lightimage textures/atcs/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.tga
+		map textures/atcs/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend.tga
+		map textures/atcs/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -216,19 +216,19 @@ textures/atcs/cubelight_32_blue_s_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/atcs/cubelight_32_blue.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_blue.tga
+	q3map_lightimage textures/atcs/cubelight_32_blue.blend
+	qer_editorimage textures/atcs/cubelight_32_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.tga
+		map textures/atcs/cubelight_32_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_blue.blend.tga
+		map textures/atcs/cubelight_32_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -237,19 +237,19 @@ textures/atcs/cubelight_32_red_s_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/atcs/cubelight_32_red.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_red.tga
+	q3map_lightimage textures/atcs/cubelight_32_red.blend
+	qer_editorimage textures/atcs/cubelight_32_red
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.tga
+		map textures/atcs/cubelight_32_red
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.blend.tga
+		map textures/atcs/cubelight_32_red.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -258,19 +258,19 @@ textures/atcs/cubelight_32_red_s_15k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 15000
-	q3map_lightimage textures/atcs/cubelight_32_red.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_red.tga
+	q3map_lightimage textures/atcs/cubelight_32_red.blend
+	qer_editorimage textures/atcs/cubelight_32_red
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.tga
+		map textures/atcs/cubelight_32_red
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.blend.tga
+		map textures/atcs/cubelight_32_red.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -279,19 +279,19 @@ textures/atcs/cubelight_32_red_s_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/atcs/cubelight_32_red.blend.tga
-	qer_editorimage textures/atcs/cubelight_32_red.tga
+	q3map_lightimage textures/atcs/cubelight_32_red.blend
+	qer_editorimage textures/atcs/cubelight_32_red
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.tga
+		map textures/atcs/cubelight_32_red
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/cubelight_32_red.blend.tga
+		map textures/atcs/cubelight_32_red.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -300,19 +300,19 @@ textures/atcs/eq2lt_baselt03b_blue_s_3000
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03b_blue.tga
+	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend
+	qer_editorimage textures/atcs/eq2_baselt03b_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.tga
+		map textures/atcs/eq2_baselt03b_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.blend.tga
+		map textures/atcs/eq2_baselt03b_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -321,19 +321,19 @@ textures/atcs/eq2lt_baselt03b_blue_s_2000
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03b_blue.tga
+	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend
+	qer_editorimage textures/atcs/eq2_baselt03b_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.tga
+		map textures/atcs/eq2_baselt03b_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.blend.tga
+		map textures/atcs/eq2_baselt03b_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -342,19 +342,19 @@ textures/atcs/eq2lt_baselt03b_blue_s_1500
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1500
-	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03b_blue.tga
+	q3map_lightimage textures/atcs/eq2_baselt03b_blue.blend
+	qer_editorimage textures/atcs/eq2_baselt03b_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.tga
+		map textures/atcs/eq2_baselt03b_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b_blue.blend.tga
+		map textures/atcs/eq2_baselt03b_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -363,19 +363,19 @@ textures/atcs/eq2lt_baselt03b_s_2000
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/atcs/eq2_baselt03b.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03b.tga
+	q3map_lightimage textures/atcs/eq2_baselt03b.blend
+	qer_editorimage textures/atcs/eq2_baselt03b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b.tga
+		map textures/atcs/eq2_baselt03b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b.blend.tga
+		map textures/atcs/eq2_baselt03b.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -384,19 +384,19 @@ textures/atcs/eq2lt_baselt03b_s_1500
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1500
-	q3map_lightimage textures/atcs/eq2_baselt03b.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03b.tga
+	q3map_lightimage textures/atcs/eq2_baselt03b.blend
+	qer_editorimage textures/atcs/eq2_baselt03b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b.tga
+		map textures/atcs/eq2_baselt03b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03b.blend.tga
+		map textures/atcs/eq2_baselt03b.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -405,19 +405,19 @@ textures/atcs/eq2_baselt03_blue_s_5000
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/atcs/eq2_baselt03_blue.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03_blue.tga
+	q3map_lightimage textures/atcs/eq2_baselt03_blue.blend
+	qer_editorimage textures/atcs/eq2_baselt03_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03_blue.tga
+		map textures/atcs/eq2_baselt03_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03_blue.blend.tga
+		map textures/atcs/eq2_baselt03_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -426,19 +426,19 @@ textures/atcs/eq2_baselt03_blue_s_3000
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/atcs/eq2_baselt03_blue.blend.tga
-	qer_editorimage textures/atcs/eq2_baselt03_blue.tga
+	q3map_lightimage textures/atcs/eq2_baselt03_blue.blend
+	qer_editorimage textures/atcs/eq2_baselt03_blue
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03_blue.tga
+		map textures/atcs/eq2_baselt03_blue
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_baselt03_blue.blend.tga
+		map textures/atcs/eq2_baselt03_blue.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -447,20 +447,20 @@ textures/atcs/eq2lt_bmtl03light_300
 {
 	surfaceparm nomarks
 	q3map_surfacelight 300
-	qer_editorimage textures/atcs/eq2_bmtl_03_light.tga
-	q3map_lightimage textures/atcs/eq2_bmtl_03_light.blend.tga
+	qer_editorimage textures/atcs/eq2_bmtl_03_light
+	q3map_lightimage textures/atcs/eq2_bmtl_03_light.blend
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_bmtl_03_light.tga
+		map textures/atcs/eq2_bmtl_03_light
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/atcs/eq2_bmtl_03_light.blend.tga
+		map textures/atcs/eq2_bmtl_03_light.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -483,7 +483,7 @@ textures/atcs/eq2lt_bmtl03light_300
 
 textures/derelictb/ladder
 {
-	qer_editorimage textures/derelictb/ladder.tga
+	qer_editorimage textures/derelictb/ladder
 	surfaceparm nodraw
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -497,18 +497,18 @@ textures/derelictb/ladder
 
 textures/derelictb/force_field_red
 {
-	qer_editorimage textures/derelictb/force_field.tga
+	qer_editorimage textures/derelictb/force_field
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 	{
-		map textures/derelictb/force_field.tga
+		map textures/derelictb/force_field
 		blendfunc add
 		tcMod scroll 0.03 0
 	}
 	{
-		map textures/derelictb/force_burst.tga
+		map textures/derelictb/force_burst
 		blendfunc add
 		rgbGen wave noise 0 1 0.1 1 
 		tcMod scroll 50 30
@@ -517,12 +517,12 @@ textures/derelictb/force_field_red
 
 textures/derelictb/db_grate01
 {
-	qer_editorimage textures/derelictb/e6bsegrtflr256.tga
+	qer_editorimage textures/derelictb/e6bsegrtflr256
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	cull none
 	{
-		map textures/derelictb/e6bsegrtflr256.tga
+		map textures/derelictb/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -547,13 +547,13 @@ textures/derelictb/db_railing
         surfaceparm nobuild
         cull none
 	{
-		map textures/eq2/eq2_bmtl.jpg
+		map textures/eq2/eq2_bmtl
 	}
 }
 
 textures/derelictb/proto_fence
 {
-	qer_editorimage textures/derelictb/objects_fence.tga
+	qer_editorimage textures/derelictb/objects_fence
 	surfaceparm noimpact
 	surfaceparm playerclip
 	surfaceparm trans		
@@ -562,7 +562,7 @@ textures/derelictb/proto_fence
 	cull none
         nopicmip
 	{
-		map textures/derelictb/objects_fence.tga
+		map textures/derelictb/objects_fence
 		tcMod scale 3 3
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
@@ -579,12 +579,12 @@ textures/derelictb/proto_fence
 
 textures/derelictb/e8tinylight
 {
-	qer_editorimage textures/derelictb/e8tinylight.jpg
-	q3map_lightimage textures/derelictb/e8tinylight.blend.jpg
+	qer_editorimage textures/derelictb/e8tinylight
+	q3map_lightimage textures/derelictb/e8tinylight.blend
 	surfaceparm nomarks
 	q3map_surfacelight 950
 	{
-		map textures/derelictb/e8tinylight.jpg
+		map textures/derelictb/e8tinylight
 	}
 	{
 		map $lightmap 
@@ -592,21 +592,21 @@ textures/derelictb/e8tinylight
 		tcGen lightmap 
 	}
 	{
-		map textures/derelictb/e8tinylight.blend.jpg
+		map textures/derelictb/e8tinylight.blend
 		blendfunc add
 	}
 }
 
 textures/derelictb/e6bsegrtflr256_s
 {
-	qer_editorimage textures/derelictb/e6bsegrtflr256.tga
+	qer_editorimage textures/derelictb/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/derelictb/e6bsegrtflr256.tga
+		map textures/derelictb/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -623,7 +623,7 @@ textures/derelictb/e8bgrate01
 	surfaceparm metalsteps
 	cull disable
 	{
-		map textures/derelictb/e8bgrate01.tga
+		map textures/derelictb/e8bgrate01
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -639,12 +639,12 @@ textures/derelictb/e8bgrate01
 
 textures/derelictb/glass_02_s
 {
-	qer_editorimage textures/derelictb/001metal.jpg
+	qer_editorimage textures/derelictb/001metal
 	//surfaceparm nomarks
 	surfaceparm trans
 	cull none
 	{
-		map textures/derelictb/001metal.jpg
+		map textures/derelictb/001metal
 		blendfunc add
 		rgbGen const ( 0.05 0.05 0.07 )
 	}
@@ -658,14 +658,14 @@ textures/derelictb/glass_02_s
 
 textures/derelictb/e6metalfan_s2
 {
-	qer_editorimage textures/derelictb/e6metalfan.tga
+	qer_editorimage textures/derelictb/e6metalfan
 
 	{
-		map textures/derelictb/e6metalfan_blade.tga
+		map textures/derelictb/e6metalfan_blade
 		tcmod rotate 5000
 	}
 	{
-		map textures/derelictb/e6metalfan.tga
+		map textures/derelictb/e6metalfan
 		blendfunc blend
 	}
 	{
@@ -676,14 +676,14 @@ textures/derelictb/e6metalfan_s2
 
 textures/derelictb/tin_s
 {
-	qer_editorimage textures/derelictb/tin.jpg
+	qer_editorimage textures/derelictb/tin
 	{
 		map $lightmap 
 		rgbGen identity
 		tcGen lightmap 
 	}
 	{
-		map textures/derelictb/tin.jpg
+		map textures/derelictb/tin
 		blendfunc gl_dst_color gl_src_alpha
 		rgbGen identity
 		alphaGen lightingSpecular
@@ -726,16 +726,16 @@ textures/derelictb/tin_s
 //----------------------------------------------------------------------------------//
 textures/eq2/eq2_telepanel
 {
-	qer_editorimage textures/eq2/eq2_telepanel.tga
-	q3map_lightimage textures/eq2/eq2_telegoo.tga
+	qer_editorimage textures/eq2/eq2_telepanel
+	q3map_lightimage textures/eq2/eq2_telegoo
 	q3map_surfacelight 25
 	{
-		map textures/eq2/eq2_telegoo.tga
+		map textures/eq2/eq2_telegoo
 		rgbGen identity
 		tcMod turb 0 0.1 0 0.2
 	}
 	{
-		map textures/eq2/eq2_telepanel.tga
+		map textures/eq2/eq2_telepanel
 		blendfunc blend
 		rgbGen identity
 	}
@@ -761,7 +761,7 @@ textures/eq2/eq2_banner
      deformVertexes wave 100 sin 0 2 0 .7
      
 	{
-        map textures/eq2/eq2_banner.tga
+        map textures/eq2/eq2_banner
         alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -784,7 +784,7 @@ textures/eq2/eq2_banner_ow
      deformVertexes wave 100 sin 0 1 0 .1
      deformVertexes wave 100 sin 0 1 0 .2     
 	{
-        map textures/eq2/eq2_banner_ow.tga
+        map textures/eq2/eq2_banner_ow
         alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -801,14 +801,14 @@ textures/eq2/eq2_banner_ow
 //----------------------------------------------------------------------------------//
 textures/eq2/eq2_banner_still
 {
-     	qer_editorimage textures/eq2/eq2_banner.tga
+     	qer_editorimage textures/eq2/eq2_banner
 		cull disable
      surfaceparm alphashadow
      surfaceparm trans	
      surfaceparm nomarks
      tessSize 32
 	{
-        map textures/eq2/eq2_banner.tga
+        map textures/eq2/eq2_banner
         alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -825,14 +825,14 @@ textures/eq2/eq2_banner_still
 //----------------------------------------------------------------------------------//
 textures/eq2/eq2_bounce
 {
-	qer_editorimage textures/eq2/eq2_bounce.tga
+	qer_editorimage textures/eq2/eq2_bounce
 	
 	{
-		map textures/eq2/eq2_bounce.tga
+		map textures/eq2/eq2_bounce
 		rgbGen identity
 	}
 	{
-		clampmap textures/eq2/eq2_bouncefan.tga
+		clampmap textures/eq2/eq2_bouncefan
 		tcMod rotate 512
 		blendFunc blend
 		depthWrite
@@ -840,7 +840,7 @@ textures/eq2/eq2_bounce
 
 	}
 	{
-		map textures/eq2/eq2_bounce.tga
+		map textures/eq2/eq2_bounce
 		blendfunc blend
 		rgbGen identity
 	}
@@ -862,20 +862,20 @@ textures/eq2/eq2lt_walllight512_300
 	surfaceparm nomarks
 	q3map_surfacelight 300
 	//q3map_lightsubdivide 32
-	qer_editorimage textures/eq2/eq2_walllight_512.tga
-	q3map_lightimage textures/eq2/eq2_walllight_512.blend.tga
+	qer_editorimage textures/eq2/eq2_walllight_512
+	q3map_lightimage textures/eq2/eq2_walllight_512.blend
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_walllight_512.tga
+		map textures/eq2/eq2_walllight_512
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_walllight_512.blend.tga
+		map textures/eq2/eq2_walllight_512.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -885,20 +885,20 @@ textures/eq2/eq2lt_bmtl03light_300
 	surfaceparm nomarks
 	q3map_surfacelight 300
 	//q3map_lightsubdivide 32
-	qer_editorimage textures/eq2/eq2_bmtl_03_light.tga
-	q3map_lightimage textures/eq2/eq2_bmtl_03_light.blend.tga
+	qer_editorimage textures/eq2/eq2_bmtl_03_light
+	q3map_lightimage textures/eq2/eq2_bmtl_03_light.blend
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_bmtl_03_light.tga
+		map textures/eq2/eq2_bmtl_03_light
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_bmtl_03_light.blend.tga
+		map textures/eq2/eq2_bmtl_03_light.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -908,20 +908,20 @@ textures/eq2/eq2lt_wallbig_01_1000
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	qer_editorimage textures/eq2/eq2_wallbig_01.tga
-	q3map_lightimage textures/eq2/eq2_wallbig_01.blend.tga
+	qer_editorimage textures/eq2/eq2_wallbig_01
+	q3map_lightimage textures/eq2/eq2_wallbig_01.blend
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.tga
+		map textures/eq2/eq2_wallbig_01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.blend.tga
+		map textures/eq2/eq2_wallbig_01.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -931,19 +931,19 @@ textures/eq2/eq2lt_wallbig_01b_1000
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	qer_editorimage textures/eq2/eq2_wallbig_01b.tga
-	q3map_lightimage textures/eq2/eq2_wallbig_01.blend.tga
+	qer_editorimage textures/eq2/eq2_wallbig_01b
+	q3map_lightimage textures/eq2/eq2_wallbig_01.blend
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01b.tga
+		map textures/eq2/eq2_wallbig_01b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.blend.tga
+		map textures/eq2/eq2_wallbig_01.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -953,19 +953,19 @@ textures/eq2/eq2lt_wallbig_01_3000
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_wallbig_01.blend.tga
-	qer_editorimage textures/eq2/eq2_wallbig_01.tga
+	q3map_lightimage textures/eq2/eq2_wallbig_01.blend
+	qer_editorimage textures/eq2/eq2_wallbig_01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.tga
+		map textures/eq2/eq2_wallbig_01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.blend.tga
+		map textures/eq2/eq2_wallbig_01.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -975,19 +975,19 @@ textures/eq2/eq2lt_wallbig_01b_3000
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_wallbig_01.blend.tga
-	qer_editorimage textures/eq2/eq2_wallbig_01b.tga
+	q3map_lightimage textures/eq2/eq2_wallbig_01.blend
+	qer_editorimage textures/eq2/eq2_wallbig_01b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01b.tga
+		map textures/eq2/eq2_wallbig_01b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_wallbig_01.blend.tga
+		map textures/eq2/eq2_wallbig_01.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -999,19 +999,19 @@ textures/eq2/eq2lt_spawnlite_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/eq2/eq2_weap_spawnlite.tga
+	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend
+	qer_editorimage textures/eq2/eq2_weap_spawnlite
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.tga
+		map textures/eq2/eq2_weap_spawnlite
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.blend.tga
+		map textures/eq2/eq2_weap_spawnlite.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1019,19 +1019,19 @@ textures/eq2/eq2lt_spawnlite_3k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/eq2/eq2_weap_spawnlite.tga
+	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend
+	qer_editorimage textures/eq2/eq2_weap_spawnlite
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.tga
+		map textures/eq2/eq2_weap_spawnlite
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.blend.tga
+		map textures/eq2/eq2_weap_spawnlite.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1039,19 +1039,19 @@ textures/eq2/eq2lt_spawnlite_6k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 6000
-	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/eq2/eq2_weap_spawnlite.tga
+	q3map_lightimage textures/eq2/eq2_weap_spawnlite.blend
+	qer_editorimage textures/eq2/eq2_weap_spawnlite
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.tga
+		map textures/eq2/eq2_weap_spawnlite
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_weap_spawnlite.blend.tga
+		map textures/eq2/eq2_weap_spawnlite.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1065,14 +1065,14 @@ textures/eq2/eq2_yell01_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/eq2/eq2_yell01.tga
-	qer_editorimage textures/eq2/eq2_yell01.tga
+	q3map_lightimage textures/eq2/eq2_yell01
+	qer_editorimage textures/eq2/eq2_yell01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell01.tga
+		map textures/eq2/eq2_yell01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1081,14 +1081,14 @@ textures/eq2/eq2_yell01_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/eq2/eq2_yell01.tga
-	qer_editorimage textures/eq2/eq2_yell01.tga
+	q3map_lightimage textures/eq2/eq2_yell01
+	qer_editorimage textures/eq2/eq2_yell01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell01.tga
+		map textures/eq2/eq2_yell01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1097,14 +1097,14 @@ textures/eq2/eq2_yell01_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/eq2/eq2_yell01.tga
-	qer_editorimage textures/eq2/eq2_yell01.tga
+	q3map_lightimage textures/eq2/eq2_yell01
+	qer_editorimage textures/eq2/eq2_yell01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell01.tga
+		map textures/eq2/eq2_yell01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1114,14 +1114,14 @@ textures/eq2/eq2_yell01_800
 {
 	surfaceparm nomarks
 	q3map_surfacelight 800
-	q3map_lightimage textures/eq2/eq2_yell01.tga
-	qer_editorimage textures/eq2/eq2_yell01.tga
+	q3map_lightimage textures/eq2/eq2_yell01
+	qer_editorimage textures/eq2/eq2_yell01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell01.tga
+		map textures/eq2/eq2_yell01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1131,14 +1131,14 @@ textures/eq2/eq2_yell02_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/eq2/eq2_yell02.tga
-	qer_editorimage textures/eq2/eq2_yell02.tga
+	q3map_lightimage textures/eq2/eq2_yell02
+	qer_editorimage textures/eq2/eq2_yell02
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell02.tga
+		map textures/eq2/eq2_yell02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1147,14 +1147,14 @@ textures/eq2/eq2_yell02_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/eq2/eq2_yell02.tga
-	qer_editorimage textures/eq2/eq2_yell02.tga
+	q3map_lightimage textures/eq2/eq2_yell02
+	qer_editorimage textures/eq2/eq2_yell02
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell02.tga
+		map textures/eq2/eq2_yell02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1163,14 +1163,14 @@ textures/eq2/eq2_yell02_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/eq2/eq2_yell02.tga
-	qer_editorimage textures/eq2/eq2_yell02.tga
+	q3map_lightimage textures/eq2/eq2_yell02
+	qer_editorimage textures/eq2/eq2_yell02
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell02.tga
+		map textures/eq2/eq2_yell02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1180,14 +1180,14 @@ textures/eq2/eq2_yell02_800
 {
 	surfaceparm nomarks
 	q3map_surfacelight 800
-	q3map_lightimage textures/eq2/eq2_yell02.tga
-	qer_editorimage textures/eq2/eq2_yell02.tga
+	q3map_lightimage textures/eq2/eq2_yell02
+	qer_editorimage textures/eq2/eq2_yell02
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_yell02.tga
+		map textures/eq2/eq2_yell02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1198,19 +1198,19 @@ textures/eq2/eq2lt_trimv_04lite
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/eq2/eq2_trimv_04lite.blend.tga
-	qer_editorimage textures/eq2/eq2_trimv_04lite.tga
+	q3map_lightimage textures/eq2/eq2_trimv_04lite.blend
+	qer_editorimage textures/eq2/eq2_trimv_04lite
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimv_04lite.tga
+		map textures/eq2/eq2_trimv_04lite
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimv_04lite.blend.tga
+		map textures/eq2/eq2_trimv_04lite.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1219,19 +1219,19 @@ textures/eq2/eq2lt_trimlite
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2500
-	q3map_lightimage textures/eq2/eq2_trimlite_side.blend.tga
-	qer_editorimage textures/eq2/eq2_trimlite_side.tga
+	q3map_lightimage textures/eq2/eq2_trimlite_side.blend
+	qer_editorimage textures/eq2/eq2_trimlite_side
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlite_side.tga
+		map textures/eq2/eq2_trimlite_side
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlite_side.blend.tga
+		map textures/eq2/eq2_trimlite_side.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1240,19 +1240,19 @@ textures/eq2/eq2lt_trimv_lite_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/eq2/eq2_trimv_lite.blend.tga
-	qer_editorimage textures/eq2/eq2_trimv_lite.tga
+	q3map_lightimage textures/eq2/eq2_trimv_lite.blend
+	qer_editorimage textures/eq2/eq2_trimv_lite
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimv_lite.tga
+		map textures/eq2/eq2_trimv_lite
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimv_lite.blend.tga
+		map textures/eq2/eq2_trimv_lite.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1261,19 +1261,19 @@ textures/eq2/eq2lt_stepsidelight_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/eq2/eq2_stepsidelight.blend.tga
-	qer_editorimage textures/eq2/eq2_stepsidelight.tga
+	q3map_lightimage textures/eq2/eq2_stepsidelight.blend
+	qer_editorimage textures/eq2/eq2_stepsidelight
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_stepsidelight.tga
+		map textures/eq2/eq2_stepsidelight
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_stepsidelight.blend.tga
+		map textures/eq2/eq2_stepsidelight.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1282,19 +1282,19 @@ textures/eq2/eq2lt_stepsidelight_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/eq2/eq2_stepsidelight.blend.tga
-	qer_editorimage textures/eq2/eq2_stepsidelight.tga
+	q3map_lightimage textures/eq2/eq2_stepsidelight.blend
+	qer_editorimage textures/eq2/eq2_stepsidelight
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_stepsidelight.tga
+		map textures/eq2/eq2_stepsidelight
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_stepsidelight.blend.tga
+		map textures/eq2/eq2_stepsidelight.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1303,19 +1303,19 @@ textures/eq2/eq2lt_clight_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/eq2/eq2_32caplight.blend.tga
-	qer_editorimage textures/eq2/eq2_32caplight.tga
+	q3map_lightimage textures/eq2/eq2_32caplight.blend
+	qer_editorimage textures/eq2/eq2_32caplight
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_32caplight.tga
+		map textures/eq2/eq2_32caplight
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_32caplight.blend.tga
+		map textures/eq2/eq2_32caplight.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1324,19 +1324,19 @@ textures/eq2/eq2lt_clight_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/eq2/eq2_32caplight.blend.tga
-	qer_editorimage textures/eq2/eq2_32caplight.tga
+	q3map_lightimage textures/eq2/eq2_32caplight.blend
+	qer_editorimage textures/eq2/eq2_32caplight
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_32caplight.tga
+		map textures/eq2/eq2_32caplight
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_32caplight.blend.tga
+		map textures/eq2/eq2_32caplight.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1345,19 +1345,19 @@ textures/eq2/eq2lt_baselt
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/eq2/eq2_baselt.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt.tga
+	q3map_lightimage textures/eq2/eq2_baselt.blend
+	qer_editorimage textures/eq2/eq2_baselt
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt.tga
+		map textures/eq2/eq2_baselt
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt.blend.tga
+		map textures/eq2/eq2_baselt.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1367,20 +1367,20 @@ textures/eq2/eq2lt_baselt02
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_baselt02.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt02.tga
+	q3map_lightimage textures/eq2/eq2_baselt02.blend
+	qer_editorimage textures/eq2/eq2_baselt02
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt02.tga
+		map textures/eq2/eq2_baselt02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt02.blend.tga
+		map textures/eq2/eq2_baselt02.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1390,20 +1390,20 @@ textures/eq2/eq2lt_baselt02_1k
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_baselt02.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt02.tga
+	q3map_lightimage textures/eq2/eq2_baselt02.blend
+	qer_editorimage textures/eq2/eq2_baselt02
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt02.tga
+		map textures/eq2/eq2_baselt02
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt02.blend.tga
+		map textures/eq2/eq2_baselt02.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1412,19 +1412,19 @@ textures/eq2/eq2lt_baselt03
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/eq2/eq2_baselt03.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt03.tga
+	q3map_lightimage textures/eq2/eq2_baselt03.blend
+	qer_editorimage textures/eq2/eq2_baselt03
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03.tga
+		map textures/eq2/eq2_baselt03
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03.blend.tga
+		map textures/eq2/eq2_baselt03.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1433,19 +1433,19 @@ textures/eq2/eq2lt_baselt03b
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/eq2/eq2_baselt03b.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt03b.tga
+	q3map_lightimage textures/eq2/eq2_baselt03b.blend
+	qer_editorimage textures/eq2/eq2_baselt03b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03b.tga
+		map textures/eq2/eq2_baselt03b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03b.blend.tga
+		map textures/eq2/eq2_baselt03b.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1454,19 +1454,19 @@ textures/eq2/eq2lt_baselt03_2k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/eq2/eq2_baselt03.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt03.tga
+	q3map_lightimage textures/eq2/eq2_baselt03.blend
+	qer_editorimage textures/eq2/eq2_baselt03
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03.tga
+		map textures/eq2/eq2_baselt03
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03.blend.tga
+		map textures/eq2/eq2_baselt03.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1475,19 +1475,19 @@ textures/eq2/eq2lt_baselt03b_2k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/eq2/eq2_baselt03b.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt03b.tga
+	q3map_lightimage textures/eq2/eq2_baselt03b.blend
+	qer_editorimage textures/eq2/eq2_baselt03b
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03b.tga
+		map textures/eq2/eq2_baselt03b
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt03b.blend.tga
+		map textures/eq2/eq2_baselt03b.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1496,19 +1496,19 @@ textures/eq2/eq2lt_baselt04
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/eq2/eq2_baselt04.blend.tga
-	qer_editorimage textures/eq2/eq2_baselt04.tga
+	q3map_lightimage textures/eq2/eq2_baselt04.blend
+	qer_editorimage textures/eq2/eq2_baselt04
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt04.tga
+		map textures/eq2/eq2_baselt04
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_baselt04.blend.tga
+		map textures/eq2/eq2_baselt04.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1519,19 +1519,19 @@ textures/eq2/eq2lt_trimlight_s_3k
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_trimlight_01s.blend.tga
-	qer_editorimage textures/eq2/eq2_trimlight_01s.tga
+	q3map_lightimage textures/eq2/eq2_trimlight_01s.blend
+	qer_editorimage textures/eq2/eq2_trimlight_01s
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlight_01s.tga
+		map textures/eq2/eq2_trimlight_01s
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlight_01s.blend.tga
+		map textures/eq2/eq2_trimlight_01s.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1542,19 +1542,19 @@ textures/eq2/eq2lt_trimlight_3k
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/eq2/eq2_trimlight_01.blend.tga
-	qer_editorimage textures/eq2/eq2_trimlight_01.tga
+	q3map_lightimage textures/eq2/eq2_trimlight_01.blend
+	qer_editorimage textures/eq2/eq2_trimlight_01
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlight_01.tga
+		map textures/eq2/eq2_trimlight_01
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/eq2/eq2_trimlight_01.blend.tga
+		map textures/eq2/eq2_trimlight_01.blend
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1570,7 +1570,7 @@ textures/eq2/eq2lt_trimlight_3k
 //    surfaceparm	metalsteps	
 //    surfaceparm nomarks
 //        {
-//         map textures/eq2/eq2_fgrate_01small.tga
+//         map textures/eq2/eq2_fgrate_01small
 //         alphaFunc GE128
 //		depthWrite
 //        }
@@ -1590,7 +1590,7 @@ textures/eq2/eq2lt_trimlight_3k
 //    surfaceparm	metalsteps	
 //    surfaceparm nomarks
 //        {
-//         map textures/eq2/eq2_fgrate_01.tga
+//         map textures/eq2/eq2_fgrate_01
 //         alphaFunc GE128
 //		depthWrite
 //        }
@@ -1610,7 +1610,7 @@ textures/eq2/eq2lt_trimlight_3k
 //    surfaceparm	metalsteps	
 //    surfaceparm nomarks
 //        {
-//         map textures/eq2/eq2_grate_01.tga
+//         map textures/eq2/eq2_grate_01
 //         alphaFunc GE128
 //		depthWrite
 //        }
@@ -1630,7 +1630,7 @@ textures/eq2/eq2lt_trimlight_3k
 //    surfaceparm	metalsteps	
 //    surfaceparm nomarks
 //        {
-//         map textures/eq2/eq2_floor_03.tga
+//         map textures/eq2/eq2_floor_03
 //         alphaFunc GE128
 //		depthWrite
 //        }
@@ -1648,13 +1648,13 @@ textures/eq2/eq2lt_trimlight_3k
 //----------------------------------------------------------------------------------//
 textures/eq2/eq2_alphawires
 {
-	qer_editorimage textures/eq2/eq2_wires_01.tga
+	qer_editorimage textures/eq2/eq2_wires_01
      cull disable
      surfaceparm alphashadow
      surfaceparm trans	
      surfaceparm nomarks
 	{
-        map textures/eq2/eq2_wires_01.tga
+        map textures/eq2/eq2_wires_01
         alphaFunc GE128
 		depthWrite
 		rgbGen vertex
