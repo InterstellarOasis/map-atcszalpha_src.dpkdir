@@ -25,43 +25,55 @@
 {
 "classname" "team_human_spawn"
 "origin" "448 608 384"
-"angle" "-163.211"
+"angle" "-163"
+}
+{
+"classname" "team_human_spawn"
+"origin" "320 704 384"
+"angle" "-138"
 }
 {
 "classname" "team_human_armoury"
 "origin" "368 496 384"
 }
 {
+"classname" "team_human_medistat"
+"origin" "286 488 384"
+}
+{
 "classname" "team_human_mgturret"
 "origin" "352 576 384"
-"angle" "-155.673"
+"angle" "-155"
 }
 {
 "classname" "team_human_mgturret"
 "origin" "48 608 224"
+"angle" "90"
 }
 {
 "classname" "team_human_mgturret"
 "origin" "-48 608 224"
-}
-{
-"classname" "team_alien_overmind"
-"origin" "468 -2517.63 384"
-"angle" "-43.632"
-}
-{
-"classname" "team_alien_spawn"
-"origin" "320 -2528 416"
 "angle" "90"
 }
 {
+"classname" "team_alien_overmind"
+"origin" "468 -2517 384"
+"angle" "-45"
+}
+{
 "classname" "team_alien_spawn"
-"origin" "480 -2368 416"
-"angle" "119.486"
+"origin" "320 -2528 384"
+"angle" "110"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "480 -2368 384"
+"angle" "180"
 }
 {
 "classname" "team_alien_acid_tube"
 "origin" "-208 -2592 224"
+"angle" "180"
 }
 {
 "classname" "team_alien_acid_tube"
@@ -70,6 +82,7 @@
 {
 "classname" "team_alien_acid_tube"
 "origin" "-208 -2400 224"
+"angle" "180"
 }
 {
 "classname" "team_alien_acid_tube"
@@ -79,11 +92,6 @@
 "classname" "info_player_intermission"
 "origin" "-512 -244 328"
 "angle" "-68.6797"
-}
-{
-"classname" "team_human_spawn"
-"origin" "320 704 384"
-"angle" "-137.881"
 }
 {
 "classname" "info_human_intermission"
